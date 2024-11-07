@@ -1,0 +1,165 @@
+:root{
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    background-color: var(--Very-Dark-Blue);
+    flex-direction: column;
+    color:var(--White);
+}
+
+
+.ratingcontainer{
+    color: var(--White);
+    background-color:var(--Dark-Blue);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    line-height: 150%;
+}
+
+
+.star-image{
+    width: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(213, 17%, 23%);
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+
+h2{
+    color: var(--neutral-white);
+    margin: 0;
+}
+
+
+.description{
+    color: var(--Light-Grey);
+}
+
+
+.rating{
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 0;
+}
+
+
+.star{
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0px;
+    margin-right:auto;
+    color: var(--neutral-white);
+    display: inline;
+    background-color: hsl(213, 17%, 23%);
+    padding: 10px 20px;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+
+
+.star:hover {
+    background-color: var(--White);
+    transition: background-color 0.2s;
+    color: var(--Very-Dark-Blue);
+}
+
+
+.star.selected{
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+}
+
+
+button{
+    display: block;
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.2s;
+    width: 100%;
+    max-width: 340px;
+    margin: auto;
+}
+
+
+button:hover{
+    background-color: var(--Light-Grey);
+    transform: translateY(-0.5px);
+}
+
+button:active{
+    background-color: var(--White);
+}
+
+
+.thankscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    background-color:var(--Dark-Blue);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    line-height: 150%;
+    color:var(--White);
+}
+
+.ty-image{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+
+.selected-box{
+    display: flex;
+    justify-content: center;
+    color: var(--Orange);
+    background-color: hsl(213, 17%, 23%);
+    width: 280px;
+    padding: 5px;
+    padding-right: -5%;
+    padding-left: -5%;
+    border-radius: 30%;
+    
+}
+
+.thanks{
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.thanksdescription{
+    font-size: 13.5px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(25, 97%, 53%); }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <div class="ratingcontainer">
+
+    <img src="images\icon-star.svg" class="star-image">
+
+      <h2>How did we do?</h2>
+
+      <p class="description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+      <ul class="rating">
+        <li class="star" data-rating="1"> <a>1</a> </li>
+        <li class="star" data-rating="2"> <a>2</a> </li>
+        <li class="star" data-rating="3"> <a>3</a> </li>
+        <li class="star" data-rating="4"> <a>4</a> </li>
+        <li class="star" data-rating="5"> <a>5</a> </li>
+     </ul>
+
+
+     <button type="Submit"> <a>SUBMIT</a> </button>
+   </div>
+
+   <div class="thankscontainer" style="display: none;">
+    <img src="images\illustration-thank-you.svg" class="ty-image">
+
+      <div class="selected-box">You selected <span id="selected-rating"> </span> out of 5</div>
+  
+      <h1 class="thanks">Thank you!</h1>
+  
+      <p class="thanksdescription"> We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch! </p>
+   </div>
+
+   <div class="attribution">
+     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+     Coded by <a href="https://github.com/beabritw"
+     target="_blank">Beatriz</a>.
+   </div>
+
+   <script src="scripts.js"></script>
+</body>
+</html>
