@@ -1,6 +1,4 @@
-# InteractiveRatingComponent
-
-# Frontend Mentor - Social links profile solution
+# Frontend Mentor - Interactive Rating Component
 
 This is a solution to the Interactive Rating Component challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
